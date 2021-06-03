@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgba(242, 242, 242, .6);
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box
+  }
+  
+  .navbar {
+    background-color: #FFAFCC;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    font-weight: 200;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+  }
+
+  
+  h4 {
+     text-transform: uppercase; 
+     color: white;
+  }
+  
+  
+  .ul-social {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .li-social-links {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .social {
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+  }
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .white {
+    background: white;
+  }
+  
+  .side-content {
+    flex: 0 0 16.6%;
+  }
+  
+  .main-content {
+    flex: 0 0 66.6%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .side-content-sm {
+    flex: 0 0 10%;
+  }
+  
+  .main-content-lg {
+    flex: 0 0 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .box-shadow {
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  }
+  
+  h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .content-body {
+    line-height: 1.5;
+    color: rgba(0,0,0,.75);
+  }
+  
+  
+
+  .pink {
+    background: #FFC8DD;
+    text-align: center;
+  }
+  
+  .contact {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .email {
+    color: white;
+  }
